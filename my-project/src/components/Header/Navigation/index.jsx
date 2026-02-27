@@ -39,10 +39,34 @@ const Navigation = (props) => {
                         </Link>
                     </li>
 
-                    <li className="list-none">
+                    <li className="list-none relative">
                         <Link to="/" className="link transition text-[14px] font-500">
                         <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252]">Fashion</Button>
                         </Link>
+
+                        <div className="submenu absolute top-[100%] left-[0%] min-w-[200px] bg-white shadow-md">
+                            <ul>
+                                <li className="list-none">
+                                    <Button className="!text-[rgba(0,0,0,0.8)]">Men</Button>
+                                </li>
+
+                                <li className="list-none">
+                                    <Button className="!text-[rgba(0,0,0,0.8)]">Women</Button>
+                                </li>
+
+                                <li className="list-none">
+                                    <Button className="!text-[rgba(0,0,0,0.8)]">Kids</Button>
+                                </li>
+
+                                <li className="list-none">
+                                    <Button className="!text-[rgba(0,0,0,0.8)]">Girls</Button>
+                                </li>
+
+                                <li className="list-none">
+                                    <Button className="!text-[rgba(0,0,0,0.8)]">Boys</Button>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
 
                     <li className="list-none">
