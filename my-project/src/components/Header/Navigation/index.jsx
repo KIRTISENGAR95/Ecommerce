@@ -46,24 +46,24 @@ const Navigation = (props) => {
 
                         <div className="submenu absolute top-[100%] left-[0%] min-w-[200px] bg-white shadow-md">
                             <ul>
-                                <li className="list-none">
-                                    <Button className="!text-[rgba(0,0,0,0.8)]">Men</Button>
+                                <li className="list-none w-full">
+                                    <Button className="!text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">Men</Button>
                                 </li>
 
-                                <li className="list-none">
-                                    <Button className="!text-[rgba(0,0,0,0.8)]">Women</Button>
+                                <li className="list-none w-full">
+                                    <Button className="!text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">Women</Button>
                                 </li>
 
-                                <li className="list-none">
-                                    <Button className="!text-[rgba(0,0,0,0.8)]">Kids</Button>
+                                <li className="list-none w-full">
+                                    <Button className="!text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">Kids</Button>
                                 </li>
 
-                                <li className="list-none">
-                                    <Button className="!text-[rgba(0,0,0,0.8)]">Girls</Button>
+                                <li className="list-none w-full">
+                                    <Button className="!text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">Girls</Button>
                                 </li>
 
-                                <li className="list-none">
-                                    <Button className="!text-[rgba(0,0,0,0.8)]">Boys</Button>
+                                <li className="list-none w-full">
+                                    <Button className="!text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">Boys</Button>
                                 </li>
                             </ul>
                         </div>
