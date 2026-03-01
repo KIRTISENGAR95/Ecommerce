@@ -3,13 +3,20 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-import { Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 
 const HomeSlider = () => {
   return (
     <div className="homeSlider py-4">
         <div className="container">
-        <Swiper spaceBetween={10}  navigation={true} modules={[Navigation]} className="SliderHome">
+        <Swiper spaceBetween={10} 
+        navigation={true} 
+        modules={[Navigation,Autoplay]}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }} 
+        className="SliderHome">
         <SwiperSlide>
         <div className="item rounded-[20px] overflow-hidden">
         <img src="https://api.spicezgold.com/download/file_1734524878924_1721277298204_banner.jpg" alt="Banner slide" className="w-full"/>
