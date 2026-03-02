@@ -49,7 +49,7 @@ export const Header =()=>{
             <div className="header py-4 border-b-[1px] border-gray-250">
                 <div className="container flex items-center justify-between">
                     <div className="col1 w-[25%]">
-                        <Link to={"/"}> <img src="/logo.jpg"/></Link>
+                        <Link to={"/"}> <img src="/logo.png"/></Link>
                     </div>
 
                     <div className="col2 w=[45%]">

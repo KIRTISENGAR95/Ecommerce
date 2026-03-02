@@ -1,14 +1,14 @@
 import React from 'react'
 import { Swiper,SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 import { Link } from 'react-router-dom';
 
 import { Navigation } from 'swiper/modules';
 
 const HomeCatSlider = () => {
   return (
-    <div className="homeCatSlider">
+    <div className="homeCatSlider pt-4 py-8">
       <div className="container">
       <Swiper
         spaceBetween={10}
