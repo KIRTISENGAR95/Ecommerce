@@ -1,14 +1,14 @@
-import React from 'react'
-import HomeSlider from '../../components/HomeSlider'
-import HomeCatSlider from '../../components/HomeCatSlider'
-import AdsBannerSlider from '../../components/AdsBannerSlider'
+import React from 'react';
 import { LiaShippingFastSolid } from "react-icons/lia";
+import AdsBannerSlider from '../../components/AdsBannerSlider';
+import HomeCatSlider from '../../components/HomeCatSlider';
+import HomeSlider from '../../components/HomeSlider';
+import ProductsSlider from '../../components/ProductsSlider';
 
 
 
-import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import Box from '@mui/material/Box';
+import Tabs from '@mui/material/Tabs';
 const Home = () => {
   const [value, setValue] = React.useState(0);
 
@@ -51,7 +51,7 @@ const Home = () => {
           </div>
         </div>
 
-        <productsSlider items={5}/>
+        <ProductsSlider items={6}/>
       </div>
     </section>
 
