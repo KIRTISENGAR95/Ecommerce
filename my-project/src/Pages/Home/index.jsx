@@ -55,7 +55,7 @@ const Home = () => {
       </div>
     </section>
 
-    <section className='py-16 bg-white '>
+    <section className='py-4 bg-white '>
     <div className="container">
       <div className="Freeshipping w-[80%] m-auto py-4 p-4 border-2 border-[#ff5252] flex items-center justify-between rounded-md mb-7">
       
@@ -75,6 +75,14 @@ const Home = () => {
 
       <AdsBannerSlider items={4}/>
     </div>
+    </section>
+
+
+
+    <section className="py-5">
+      <div className="container">
+        <ProductsSlider items={6}/>
+      </div>
     </section>
 
     <br /><br /><br /><br /><br /><br />
