@@ -27,7 +27,7 @@ const Home = () => {
         <div className="flex items-center justify-between">
           <div className="leftSec">
             <h2 className="text-[20px] font-600">Popular Products</h2>
-            <p className="text-[14px] font-400">don't miss the current offers until the end of March</p>
+            <p className="text-[14px] font-400">Do not  miss the current offers until the end of March</p>
           </div>
 
           <div className="rightSec w-[60%]">
@@ -55,7 +55,7 @@ const Home = () => {
       </div>
     </section>
 
-    <section className='py-4 bg-white '>
+    <section className='py-4 pt-2 bg-white '>
     <div className="container">
       <div className="Freeshipping w-[80%] m-auto py-4 p-4 border-2 border-[#ff5252] flex items-center justify-between rounded-md mb-7">
       
@@ -73,16 +73,31 @@ const Home = () => {
 
       </div>
 
+
       <AdsBannerSlider items={4}/>
     </div>
     </section>
 
 
 
-    <section className="py-5">
+    <section className="py-5 pt-0 bg-white">
       <div className="container">
+        <h2 className="text-[20px] font-600">Latest Products</h2>
         <ProductsSlider items={6}/>
-      </div>
+
+        <AdsBannerSlider items={3}/>
+      </div> 
+    </section>
+
+
+
+    <section className="py-5 pt-0 bg-white">
+      <div className="container">
+        <h2 className="text-[20px] font-600">Featured Products</h2>
+        <ProductsSlider items={6}/>
+
+        <AdsBannerSlider items={3}/>
+      </div> 
     </section>
 
     <br /><br /><br /><br /><br /><br />
