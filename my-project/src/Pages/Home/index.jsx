@@ -14,6 +14,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Navigation } from "swiper/modules";
 import BlogItem from '../../components/BlogItem';
+import Footer from '../../components/Footer';
 
 const Home = () => {
   const [value, setValue] = React.useState(0);
@@ -141,9 +142,11 @@ const Home = () => {
               <SwiperSlide>
                 <BlogItem/>
               </SwiperSlide>
-      /</Swiper>
+      </Swiper>
       </div>
     </section>
+
+    <Footer/>
 
     <br /><br /><br /><br /><br /><br />
     </>
