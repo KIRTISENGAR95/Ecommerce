@@ -5,6 +5,11 @@ import { BsWallet2 } from "react-icons/bs";
 import { LiaGiftSolid } from "react-icons/lia";
 import { BiSupport } from "react-icons/bi";
 import { Link } from 'react-router-dom';
+import { IoChatboxOutline } from "react-icons/io5";
+import Button from "@mui/material/Button";
+import FormGroup from '@mui/material/FormGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
 
 
 const Footer=()=>{
@@ -48,18 +53,74 @@ const Footer=()=>{
 
                     
                 </div>
+                <br />
 
                 <hr/>
 
-                <div className="footer flex items-center">
-                    <div className="part1">
-                        <h2>Contact us</h2>
-                        <p>Classyshop -Mega Super Store 507-Union Trade Centre</p>
 
-                        <Link className="link" to="mailto:someone@example.com">sales@yourcompany.com</Link>
+                <div className="footer flex  py-8">
+                    <div className="part1 w-[25%] border-r border-[rgba(0,0,0,0.1)]">
+                        <h2 className="text-[18px] font-[600] mb-4">Contact us</h2>
+                        <p className="text-[13px] font-[400] pb-4">Classyshop -Mega Super Store <br />
+                            507-Union Trade Centre France
+                        </p>
 
-                        <span className="text-[25px] font-[600]">(+91)9876-543-210</span>
+                        <Link className="link text-[13px]" to="mailto:someone@example.com">sales@yourcompany.com</Link>
+
+                        <span className="text-[22px] font-[600] block w-full mt-3 mb-5 text-primary">(+91)9876-543-210</span>
+
+                        <div className="flex items-center gap-2">
+                            <IoChatboxOutline className="text-[40px] text-primary"/>
+                            <span className="text-[16px] font-[600] ">Online Chat <br />
+                                Get Expert Help
+                            </span>
+                        </div>
                     </div>
+
+
+                    <div className="part2 w-[40%] flex pl-8">
+                        <div className="part2_col1 w-[50%]">
+                            <h2 className="text-[18px] font-[600] mb-4">Products</h2>
+
+                            <ul className="list">
+                                <li className="list-none text-[14px] w-full mb-2"><Link to="/" className="link">Prices drop</Link></li>
+                                <li className="list-none text-[14px] w-full mb-2"><Link to="/" className="link">New Products</Link></li>
+                                <li className="list-none text-[14px] w-full mb-2"><Link to="/" className="link">Best Sales</Link></li>
+                                <li className="list-none text-[14px] w-full mb-2"><Link to="/" className="link">Contact Us</Link></li>
+                                <li className="list-none text-[14px] w-full mb-2"><Link to="/" className="link">Sitemap</Link></li>
+                                <li className="list-none text-[14px] w-full mb-2"><Link to="/" className="link">Stores</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                        <div className="part2_col1 w-[50%]">
+                            <h2 className="text-[18px] font-[600] mb-4">Our Company</h2>
+
+                            <ul className="list">
+                                <li className="list-none text-[14px] w-full mb-2"><Link to="/" className="link">Delivery</Link></li>
+                                <li className="list-none text-[14px] w-full mb-2"><Link to="/" className="link">Legal Notice</Link></li>
+                                <li className="list-none text-[14px] w-full mb-2"><Link to="/" className="link">Terms And Conditions Of Use</Link></li>
+                                <li className="list-none text-[14px] w-full mb-2"><Link to="/" className="link">About Us</Link></li>
+                                <li className="list-none text-[14px] w-full mb-2"><Link to="/" className="link">Secure Payment</Link></li>
+                                <li className="list-none text-[14px] w-full mb-2"><Link to="/" className="link">Login</Link></li>
+                            </ul>
+                        </div>
+
+
+
+                        <div className="part2 w-[35%] flex pl-8 flex-col pr-8">
+                            <h2 className="text-[18px] font-[600] mb-4">Subscribe to newsletter</h2>
+                            <p className="text-[13px]">Subscribe to our latest newsletter to get news about special discounts.</p>
+                            <form className="mt-5">
+                                <input type="text" className="w-full h-[45px] border outline-none pl-4 pr-4 rounded-sm mb-4 focus:border-[rgba(0,0,0,0.3)]" placeholder="Your Email Address"></input>
+                                <Button className="btn-org">SUBSCRIBE</Button>
+
+                                <FormControlLabel control={<Checkbox defaultChecked />} label="I agree to the terms and conditions and the privacy policy" />
+                            </form>
+
+                        </div>
+                    
                 </div>
             </div>
         </footer>
