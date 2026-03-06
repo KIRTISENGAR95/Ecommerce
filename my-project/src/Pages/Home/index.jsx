@@ -148,7 +148,7 @@ const Home = () => {
 
     <Footer/>
 
-    <br /><br /><br /><br /><br /><br />
+    
     </>
   )
 }
