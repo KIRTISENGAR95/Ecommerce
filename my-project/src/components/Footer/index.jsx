@@ -7,13 +7,19 @@ import { BiSupport } from "react-icons/bi";
 import { Link } from 'react-router-dom';
 import { IoChatboxOutline } from "react-icons/io5";
 import Button from "@mui/material/Button";
-import FormGroup from '@mui/material/FormGroup';
+
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
+import { FaFacebookF } from "react-icons/fa";
+import { AiOutlineYoutube } from "react-icons/ai";
+import { FaPinterestP } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 
 const Footer=()=>{
     return (
+        <>
+
         <footer className="py-6 bg-[#fafafa]">
             <div className="container">
                 <div className="flex items-center justify-center gap-2 py-8 pb-8">
@@ -124,6 +130,59 @@ const Footer=()=>{
                 </div>
             </div>
         </footer>
+
+
+
+        <div className="bottomStrip border-t border-[rgba(0,0,0,0.1)] py-3 bg-white">
+            <div className="container flex items-center justify-between">
+                <ul className="flex items-center gap-2">
+                    <li className="list-none">
+                        <Link to="/" target="_blank" className="w-[35px] h-[35px] rounded-full border border-[rgba(0,0,0,0.1)] flex items-center justify-center group hover:bg-primary transition-all">
+                           <FaFacebookF className="text-[15px] group-hover:text-white"/>
+                        </Link>
+                    </li>
+
+                    <li className="list-none">
+                        <Link to="/" target="_blank" className="w-[35px] h-[35px] rounded-full border border-[rgba(0,0,0,0.1)] flex items-center justify-center group hover:bg-primary transition-all">
+                           <AiOutlineYoutube className="text-[20px] group-hover:text-white"/>
+                        </Link>
+                    </li>
+
+
+
+                    <li className="list-none">
+                        <Link to="/" target="_blank" className="w-[35px] h-[35px] rounded-full border border-[rgba(0,0,0,0.1)] flex items-center justify-center group hover:bg-primary transition-all">
+                           <FaPinterestP className="text-[15px] group-hover:text-white"/>
+                        </Link>
+                    </li>
+
+
+                    <li className="list-none">
+                        <Link to="/" target="_blank" className="w-[35px] h-[35px] rounded-full border border-[rgba(0,0,0,0.1)] flex items-center justify-center group hover:bg-primary transition-all">
+                           <FaInstagram className="text-[15px] group-hover:text-white"/>
+                        </Link>
+                    </li>
+
+                    
+                </ul>
+
+
+                <p className="text-[13px] text-center mb-0">© 2026 - Ecommerce Template</p>
+
+
+                <div className="flex items-center">
+                    <img src="/paypal.webp" alt="image" className="w-12 h-auto"/>
+                    <img src="/visa-logo-png.webp" alt="image" className="w-12 h-auto"/>
+                    
+                    
+                </div>
+
+            </div>  
+        </div>
+
+        
+
+        </>
     )
 }
 
