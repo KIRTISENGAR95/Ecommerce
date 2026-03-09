@@ -4,6 +4,7 @@ import AdsBannerSlider from '../../components/AdsBannerSlider';
 import HomeCatSlider from '../../components/HomeCatSlider';
 import HomeSliderV2 from '../../components/HomeSliderV2';
 import ProductsSlider from '../../components/ProductsSlider';
+import BannerBoxV2 from '../../components/bannerBoxV2';
 
 import Tab from '@mui/material/Tab';
 import Tabs from '@mui/material/Tabs';
@@ -25,13 +26,16 @@ const Home = () => {
 
   return (
     <>
-    {/* <HomeSlider/> */}
 
-
-   <section className="py-6">
-    <div className="container flex items-center">
-      <div className="part1 w-[75%]">
+   <section className="py-6 homeSlider">
+    <div className="container flex gap-5">
+      <div className="part1 w-[70%]">
         <HomeSliderV2/>
+      </div>
+
+      <div className="part2 w-[30%] flex flex-col gap-5">
+        <BannerBoxV2 image={'camera.png'}/>
+        <BannerBoxV2 image={'diningChair.png'}/>
       </div>
 
     </div>

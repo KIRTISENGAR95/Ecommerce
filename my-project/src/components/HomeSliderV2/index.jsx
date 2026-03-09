@@ -4,8 +4,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 import Button from '@mui/material/Button';
+import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 
 
 const HomeSliderV2 = () => {
@@ -22,8 +22,8 @@ const HomeSliderV2 = () => {
         className="homeSliderV2"
       >
         <SwiperSlide>
-          <div className="item w-full rounded-md overflow-hidden relative">
-            <img src="img1.png" />
+          <div className="item w-full h-[450px] rounded-md overflow-hidden relative">
+            <img src="img1.png" className="w-full h-full object-cover"/>
 
             <div className="info absolute top-20 -right-[100%] opacity-0 w-[30%] h-[100%] z-50 p-8 items-center flex-col justify-center transition-all duration-700">
               <h4 className="text-[18px] font-[500] w-full text-left mb-4 relative -right-[100%] opacity-0 ">Big Saving Days Sale</h4>
@@ -40,8 +40,8 @@ const HomeSliderV2 = () => {
 
 
         <SwiperSlide>
-          <div className="item w-full rounded-md overflow-hidden">
-            <img src="img2.png"/>
+          <div className="item w-full h-[450px] rounded-md overflow-hidden relative">
+            <img src="img2.png" className="w-full h-full object-cover"/>
 
             <div className="info absolute top-20 -right-[100%] opacity-0 w-[30%] h-[100%] z-50 p-8 items-center flex-col justify-center transition-all duration-700">
               <h4 className="text-[18px] font-[500] w-full text-left mb-4 relative -right-[100%] opacity-0 ">Big Saving Days Sale</h4>
