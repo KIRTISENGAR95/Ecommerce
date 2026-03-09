@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -23,6 +24,15 @@ body{
 
 .btn-org{background:#ff5252 !important;color:#fff !important;font-weight:500;font-size:16px;padding:7px 20px !important;}
 
+button,
+nav ul button,
+.btn-org{
+  font-size: 16px;
+  padding: 8px 20px;
+  min-height: 40px;
+  border-radius: 4px;
+}
+
 header .top-strip{border-top: 1px solid rgba(0,0,0,0.1); border-bottom:1px solid rgba(0,0,0,0.1); }
 
 
@@ -38,16 +48,15 @@ nav ul button:hover {background: none !important;}
 .swiper-button-prev,.swiper-button-next{display: flex;align-items: center;justify-content: center;background-color: #fff; border-radius: 100%;width: 45px;height: 45px;min-width: 45px;box-shadow: 0 1px 3px #0000001f,0 1px 2px #0000003d !important;}
 .swiper-button-after,.swiper-button-next:after{font-size: 22px !important;color: #000;}
 
-
-.smlBtn .swiper-button-prev,.swiper-button-next{width:30px !important; height:30px !important;min-width:30px;top:55% !important}
-.smlBtn .swiper-button-after,.smlBtn .swiper-button-next:after{font-size: 18px !important;color: #000;}
+.smlBtn .swiper-button-prev,.smlBtn .swiper-button-next{width:30px !important; height:30px !important;min-width:30px;top:55% !important}
+.smlBtn .swiper-button-after,.smlBtn .swiper-button-next:after{font-size: 22px !important;color: #000;}
 
 .homeCatSlider{overflow: inherit !important;}
 .homeCatSlider .swiper-button-prev, .homeCatSlider .swiper-button-next{width:30px;height:30px; min-width: 30px;}
-.homeCatSlider .swiper-button-prev:after,.homeCatSlider .swiper-button-next:after{font-size: 16px !important;}
+.homeCatSlider .swiper-button-prev:after,.homeCatSlider .swiper-button-next:after{font-size: 22px !important;}
 
-.homeCatSlider .swiper-button-prev{left: -10px !important}
-.homeCatSlider .swiper-button-next{right: -10px !important}
+.homeCatSlider .swiper-button-prev{left: 20px !important}
+.homeCatSlider .swiper-button-next{right: 20px !important}
 
 .homeCatSlider .item{border:1px solid rgba(0,0,0,0.1)}
 
@@ -61,11 +70,24 @@ nav ul button:hover {background: none !important;}
 .MuiTabs-indicator{background-color: #ff5252 !important;}
 .MuiTab-textColorPrimary.Mui-selected{color:#ff5252 !important;}
 
-.productsSlider .swiper-wrapper{padding:15px; margin-left: -15px; margin-right: -15px;}
+.productsSlider .swiper-wrapper{padding:15px; margin-left: -10px; margin-right: -10px;}
 
 footer form input::placeholder{font-size:14px;}
 
 
-.css-imrjgg-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .css-imrjgg-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indexterminated{color:#ff5252 !important;}
+.css-imrjgg-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .css-imrjgg-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate{color:#ff5252 !important;}
 
 .MuiFormControlLabel-label{font-size: 13px !important;color:rgba(0,0,0,0.8)}
+
+.swiper-pagination-bullet-active{background-color: #ff5252 !important;}
+
+.homeSliderV2 .swiper-slide-active .info{right:0px !important;opacity: 1;}
+.homeSliderV2 .swiper-slide-active .info h4{right:0px !important;opacity: 1;}
+.homeSliderV2 .swiper-slide-active .info h3{right:0px !important;opacity: 1;}
+.homeSliderV2 .swiper-slide-active .info h2{right:0px !important;opacity: 1;}
+.homeSliderV2 .swiper-slide-active .info btn_{right:0px !important;opacity: 1;}
+
+.homeSliderV2 .info h4{transition-duration: 1.2s ;}
+.homeSliderV2 .info h2{transition-duration: 1.5s;}
+.homeSliderV2 .info h3{transition-duration: 1.8s;}
+.homeSliderV2 .info btn_{transition-duration: 2.1s;}

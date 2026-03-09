@@ -11,6 +11,7 @@ const HomeCatSlider = () => {
     <div className="homeCatSlider pt-4 py-8">
       <div className="container">
       <Swiper
+        loop={true}
         spaceBetween={10}
         slidesPerView={8}
         modules={[Navigation]}

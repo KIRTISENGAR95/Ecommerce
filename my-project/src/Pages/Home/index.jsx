@@ -2,7 +2,7 @@ import React from 'react';
 import { LiaShippingFastSolid } from "react-icons/lia";
 import AdsBannerSlider from '../../components/AdsBannerSlider';
 import HomeCatSlider from '../../components/HomeCatSlider';
-import HomeSlider from '../../components/HomeSlider';
+import HomeSliderV2 from '../../components/HomeSliderV2';
 import ProductsSlider from '../../components/ProductsSlider';
 
 import Tab from '@mui/material/Tab';
@@ -25,7 +25,19 @@ const Home = () => {
 
   return (
     <>
-    <HomeSlider/>
+    {/* <HomeSlider/> */}
+
+
+   <section className="py-6">
+    <div className="container flex items-center">
+      <div className="part1 w-[75%]">
+        <HomeSliderV2/>
+      </div>
+
+    </div>
+   </section>
+
+
     <HomeCatSlider/>
 
 
