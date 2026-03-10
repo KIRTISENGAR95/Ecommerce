@@ -1,10 +1,12 @@
 import React from 'react';
 import { LiaShippingFastSolid } from "react-icons/lia";
 import AdsBannerSlider from '../../components/AdsBannerSlider';
+import AdsBannerSliderV2 from '../../components/AdsBannerSliderV2';
 import HomeCatSlider from '../../components/HomeCatSlider';
 import HomeSliderV2 from '../../components/HomeSliderV2';
 import ProductsSlider from '../../components/ProductsSlider';
 import BannerBoxV2 from '../../components/bannerBoxV2';
+import HomeSlider from '../../components/HomeSlider';
 
 import Tab from '@mui/material/Tab';
 import Tabs from '@mui/material/Tabs';
@@ -15,7 +17,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Navigation } from "swiper/modules";
 import BlogItem from '../../components/BlogItem';
-import Footer from '../../components/Footer';
+
 
 const Home = () => {
   const [value, setValue] = React.useState(0);
@@ -26,16 +28,17 @@ const Home = () => {
 
   return (
     <>
-
-   <section className="py-6 homeSlider">
+    <HomeSlider/>
+   <section className="py-6 ">
     <div className="container flex gap-5">
       <div className="part1 w-[70%]">
         <HomeSliderV2/>
       </div>
 
-      <div className="part2 w-[30%] flex flex-col gap-5">
-        <BannerBoxV2 image={'camera.png'}/>
-        <BannerBoxV2 image={'diningChair.png'}/>
+      <div className="part2 w-[30%] flex items-center justify-between flex-col gap-5">
+        <BannerBoxV2 info="left" image={'camera.png'}/>
+
+        <BannerBoxV2 info="right" image={'diningChair.png'}/>
       </div>
 
     </div>
@@ -97,7 +100,7 @@ const Home = () => {
       </div>
 
 
-      <AdsBannerSlider items={4}/>
+      <AdsBannerSliderV2 items={4}/>
     </div>
     </section>
 
@@ -162,7 +165,7 @@ const Home = () => {
       </div>
     </section>
 
-    <Footer/>
+    
 
     
     </>
