@@ -1,12 +1,10 @@
-import React from 'react'
-import { IoMdTime } from "react-icons/io";
+import { IoIosArrowForward, IoMdTime } from "react-icons/io";
 import { Link } from 'react-router-dom';
-import { IoIosArrowForward } from "react-icons/io";
 export const BlogItem =()=>{
     return (
         <div className="blogItem group">
             <div className='imgWrapper w-full overflow-hidden rounded-md cursor-pointer relative'>
-                <img src="https://api.spicezgold.com/download/file_1734528773361_ksc-khatushyam-collection-black-pu-for-women-handheld-bag-product-images-rvkg3apiuk-0-202405282358.webp" className="w-full transition-all group-hover:scale-105 group-hover:rotate-1" alt="blog image"/>
+                <img src="https://api.spicezgold.com/download/file_1734528773361_ksc-khatushyam-collection-black-pu-for-women-handheld-bag-product-images-rvkg3apiuk-0-202405282358.webp" className="w-full transition-all group-hover:scale-105 group-hover:rotate-1" alt="blog image" referrerPolicy="no-referrer"/>
 
                 <span className='flex items-center justify-center text-white absolute bottom-[15px] right-[15px] z-50 bg-primary rounded-md p-1 text-11px font-[500] gap-1'>
                     <IoMdTime className="text-[16px]"/> 5 march, 2026

@@ -9,7 +9,7 @@ import "../ProductItem/style.css";
 
 const ProductItem = () => {
   return( 
-    <div className="productItem shadow-lg rounded-md overflow-hidden border-1 border-[rgba(0,0,0,0.1)]">
+    <div className="productItem shadow-lg rounded-md overflow-hidden border-1 border-[rgba(0,0,0,0.1)] flex items-center">
       <div className="group imgWrapper w-full overflow-hidden rounded-md relative">
         <Link to="/">
         <div className="img h-[220px] overflow-hidden">

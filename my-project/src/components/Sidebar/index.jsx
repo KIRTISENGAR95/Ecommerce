@@ -47,7 +47,7 @@ const Sidebar = ()=>{
                 <h3 className="w-full mb-3 text-[16px] font-[600] flex items-center pr-5">Availability
                     <Button className="!w-[30px] !h-[30px] !min-w-[30px] !rounded-full !ml-auto color-[#000]"onClick={()=>SetIsOpenAvailFilter(!isOpenAvailFilter)}>
                         {
-                            isOpenCategoryFilter===true ? <FaAngleUp/> : <FaAngleDown/>
+                            isOpenAvailFilter===true ? <FaAngleUp/> : <FaAngleDown/>
                         }
                         
                         
@@ -68,7 +68,7 @@ const Sidebar = ()=>{
 
             <div className="box mt-3">
                 <h3 className="w-full mb-3 text-[16px] font-[600] flex items-center pr-5">Availability
-                    <Button className="!w-[30px] !h-[30px] !min-w-[30px] !rounded-full !ml-auto color-[#000]"onClick={()=>SetIsOpenSizeFilter(!isOpenSizelFilter)}>
+                    <Button className="!w-[30px] !h-[30px] !min-w-[30px] !rounded-full !ml-auto color-[#000]"onClick={()=>SetIsOpenSizeFilter(!isOpenSizeFilter)}>
                         {
                             isOpenSizeFilter===true ? <FaAngleUp/> : <FaAngleDown/>
                         }

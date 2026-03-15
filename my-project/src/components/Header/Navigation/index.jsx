@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
 import Button from '@mui/material/Button';
-import { RiMenu2Fill } from "react-icons/ri";
-import { LiaAngleDownSolid } from "react-icons/lia";
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import { GoRocket } from "react-icons/go";
+import { LiaAngleDownSolid } from "react-icons/lia";
+import { RiMenu2Fill } from "react-icons/ri";
+import { Link } from 'react-router-dom';
 import CategoryPanel from './CategoryPanel';
 
-import "../Navigation/style.css"
+import "../Navigation/style.css";
 
 const Navigation = (props) => {
 
@@ -36,13 +36,13 @@ const Navigation = (props) => {
                 <ul className="flex items-center gap-3 nav">
                     <li className="list-none">
                         <Link to="/" className="link transition text-[14px] font-500">
-                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-4">Home</Button>
+                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-2">Home</Button>
                         </Link>
                     </li>
 
                     <li className="list-none relative">
                         <Link to="/" className="link transition text-[14px] font-500">
-                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-4">Fashion</Button>
+                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-2">Fashion</Button>
                         </Link>
 
                         <div className="submenu absolute top-[120%] left-[0%] min-w-[200px] bg-white shadow-md opacity-0 transition-all">
@@ -118,43 +118,43 @@ const Navigation = (props) => {
 
                     <li className="list-none">
                         <Link to="/" className="link transition text-[14px] font-500">
-                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-4">Electronics</Button>
+                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-2">Electronics</Button>
                         </Link>
                     </li>
 
                     <li className="list-none">
                         <Link to="/" className="link transition text-[14px] font-500">
-                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-4">Bags</Button>
+                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-2">Bags</Button>
                         </Link>
                     </li>
 
                     <li className="list-none">
                         <Link to="/" className="link transition text-[14px] font-500">
-                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-4">Footwear</Button>
+                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-2">Footwear</Button>
                         </Link>
                     </li>
 
                     <li className="list-none">
                         <Link to="/" className="link transition text-[14px] font-500">
-                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-4">Groceries</Button>
+                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-2">Groceries</Button>
                         </Link>
                     </li>
 
                     <li className="list-none">
                         <Link to="/" className="link transition text-[14px] font-500">
-                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-4">Beauty</Button>
+                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-2">Beauty</Button>
                         </Link>
                     </li>
 
                     <li className="list-none">
                         <Link to="/" className="link transition text-[14px] font-500">
-                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-4">Wellness</Button>
+                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-2">Wellness</Button>
                         </Link>
                     </li>
 
                     <li className="list-none">
                         <Link to="/" className="link transition text-[14px] font-500">
-                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-4">Jewellery</Button>
+                        <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.8)] hover:!text-[#ff5252] !py-2">Jewellery</Button>
                         </Link>
                     </li>
                 </ul>

@@ -17,25 +17,25 @@ const AdsBannerSlider = (props) => {
         navigation={true}
       >
         <SwiperSlide>
-          <BannerBoxV2 info="left" image={'camera.png'} link={'/'}/>
+          <BannerBoxV2 info="left" image={'/camera.png'} link={'/'}/>
         </SwiperSlide>
 
 
         <SwiperSlide>
-          <BannerBoxV2 info="right" image={'diningChair.png'} link={'/'}/>
+          <BannerBoxV2 info="right" image={'/diningChair.png'} link={'/'}/>
         </SwiperSlide>
 
         <SwiperSlide>
-          <BannerBoxV2 info="left" image={'camera.png'} link={'/'}/>
+          <BannerBoxV2 info="left" image={'/camera.png'} link={'/'}/>
         </SwiperSlide>
 
         <SwiperSlide>
-          <BannerBoxV2 info="left" image={'camera.png'} link={'/'}/>
+          <BannerBoxV2 info="left" image={'/camera.png'} link={'/'}/>
         </SwiperSlide>
 
 
         <SwiperSlide>
-          <BannerBoxV2 info="left" image={'camera.png'} link={'/'}/>
+          <BannerBoxV2 info="left" image={'/camera.png'} link={'/'}/>
         </SwiperSlide>
 
         
