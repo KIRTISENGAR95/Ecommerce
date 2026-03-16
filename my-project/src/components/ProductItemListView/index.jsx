@@ -54,7 +54,7 @@ const ProductItem = () => {
         </div>
 
         <div className="mt-3">
-          <Button className="btn-org flex gap-2"><MdOutlineShoppingCart/>Add to Cart</Button>
+          <Button className="btn-org flex gap-2"><MdOutlineShoppingCart className="text-[20px]"/>Add to Cart</Button>
         </div>
       </div>
     </div>

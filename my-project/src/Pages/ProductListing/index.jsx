@@ -10,6 +10,7 @@ import {IoGridSharp} from "react-icons/io5";
 import {LuMenu} from "react-icons/lu";
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem'
+import Pagination from '@mui/material/Pagination';
 
 
 const ProductListing = () =>{
@@ -23,7 +24,7 @@ const ProductListing = () =>{
     setAnchorEl(null);
   };
     return (
-        <section className="py-5">
+        <section className="py-5 pb-0">
           <div className="container">
           <Breadcrumbs aria-label="breadcrumb">
         <Link underline="hover" color="inherit" href="/" className="link transition">
@@ -51,11 +52,13 @@ const ProductListing = () =>{
 
           <div className="rightContent w-[80%] py-3">
             <div className="bg-[#f1f1f1] p-2 w-full mb-4 rounded-md flex items-center justify-between">
-              <div className="col1 flex items-center ">
-                <Button className="!w-[40px] !h-[40px] !min-w-[40px] !rounded-full text-[#000]" onClick={()=>setItemView('list')}>
+              <div className="col1 flex items-center itemViewActions">
+                <Button className={`!w-[40px] !h-[40px] !min-w-[40px] !rounded-full text-[#000] ${itemView === "list" && 'active'}`}
+                onClick={()=> setItemView("list")}>
                   <LuMenu className="text-[rgba(0,0,0,0.7)]"/>
                 </Button>
-                <Button className="!w-[40px] !h-[40px] !min-w-[40px] !rounded-full text-[#000]" onClick={()=>setItemView('grid')}>
+                <Button className={`!w-[40px] !h-[40px] !min-w-[40px] !rounded-full text-[#000]  ${itemView === "grid" && 'active'}`}
+                onClick={()=> setItemView("list")}>
                   <IoGridSharp className="text-[rgba(0,0,0,0.7)]"/>
                 </Button>
 
@@ -123,6 +126,10 @@ const ProductListing = () =>{
 
               }
                 
+            </div>
+
+            <div className="flex items-center justify-center mt-10">
+              <Pagination count={10} showFirstButton showLastButton/>
             </div>
           </div>
         </div>
