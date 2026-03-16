@@ -5,6 +5,7 @@ import { IoGitCompareOutline } from "react-icons/io5";
 import { MdZoomOutMap } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import "../ProductItem/style.css";
+import {MdOutlineShoppingCart} from "react-icons/md";
 
 
 const ProductItem = () => {
@@ -53,7 +54,7 @@ const ProductItem = () => {
         </div>
 
         <div className="mt-3">
-          <Button className="btn-org ">Add to Cart</Button>
+          <Button className="btn-org flex gap-2"><MdOutlineShoppingCart/>Add to Cart</Button>
         </div>
       </div>
     </div>
