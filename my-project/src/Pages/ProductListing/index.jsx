@@ -98,10 +98,11 @@ const ProductListing = () =>{
               </div>
               
             </div>
-            <div className="grid grid-cols-4 md:grid-cols-4 gap-4">
+            <div className={`grid ${itemView==='grid' ? 'grid-cols-4 md:grid-cols-4' : ' grid-cols-1 md:grid-cols-1'}gap-4`}>
               {
                 itemView === 'grid' ?
                 <>
+                <ProductItem/>
                 <ProductItem/>
                 <ProductItem/>
                 <ProductItem/>
