@@ -27,7 +27,7 @@ const ProductDetails = () =>{
 
           <section className="bg-white py-5">
             <div className="container flex gap-4">
-            <div className="productZoomContainer w-[30%] h-[50vh] overflow-hidden">
+            <div className="productZoomContainer w-[40%] h-[70vh] overflow-hidden">
               <ProductZoom/>
             </div>
           </div>
