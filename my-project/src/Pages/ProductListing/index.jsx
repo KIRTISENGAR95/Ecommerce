@@ -58,7 +58,7 @@ const ProductListing = () =>{
                   <LuMenu className="text-[rgba(0,0,0,0.7)]"/>
                 </Button>
                 <Button className={`!w-[40px] !h-[40px] !min-w-[40px] !rounded-full text-[#000]  ${itemView === "grid" && 'active'}`}
-                onClick={()=> setItemView("list")}>
+                onClick={()=> setItemView("grid")}>
                   <IoGridSharp className="text-[rgba(0,0,0,0.7)]"/>
                 </Button>
 

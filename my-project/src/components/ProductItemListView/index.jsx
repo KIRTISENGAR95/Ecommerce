@@ -2,13 +2,12 @@ import Button from "@mui/material/Button";
 import Rating from '@mui/material/Rating';
 import { FaRegHeart } from "react-icons/fa";
 import { IoGitCompareOutline } from "react-icons/io5";
-import { MdZoomOutMap } from "react-icons/md";
+import { MdOutlineShoppingCart, MdZoomOutMap } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import "../ProductItem/style.css";
-import {MdOutlineShoppingCart} from "react-icons/md";
 
 
-const ProductItem = () => {
+const ProductItemListView = () => {
   return( 
     <div className="productItem shadow-lg rounded-md overflow-hidden border-1 border-[rgba(0,0,0,0.1)] flex items-center">
       <div className="group imgWrapper w-[25%] overflow-hidden rounded-md relative">
@@ -61,4 +60,4 @@ const ProductItem = () => {
   )
 }
 
-export default ProductItem
+export default ProductItemListView
