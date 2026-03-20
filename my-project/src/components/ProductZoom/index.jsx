@@ -29,26 +29,26 @@ const ProductZoom=()=>{
                         navigation={true}
                       >
                         <SwiperSlide>
-                            <div className={`item rounded-md overflow-hidden cursor-pointer group  $ {slideIndex===0 ? 'opacity-1' : 'opacity-30'}`} onClick={()=> Goto(0)}>
+                            <div className="item rounded-md overflow-hidden cursor-pointer group opacity-30" onClick={()=> Goto(0)}>
                                 <img src="https://www.jiomart.com/images/product/original/rvkbvlzaox/ddg-women-printed-anarkali-kurta-product-images-rvkbvlzaox-0-202502051101.jpg?im=Resize=(600,750)" className="w-full transition-all group-hover:scale-105"/>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className={`item rounded-md overflow-hidden cursor-pointer group  $ {slideIndex===1 ? 'opacity-1' : 'opacity-30'}`} onClick={()=> Goto(1)}>
+                            <div className="item  rounded-md overflow-hidden cursor-pointer group" onClick={()=> Goto(1)}>
                                 <img src="https://www.jiomart.com/images/product/original/rvkbvlzaox/ddg-women-printed-anarkali-kurta-product-images-rvkbvlzaox-1-202502051101.jpg?im=Resize=(600,750)" className="w-full transition-all group-hover:scale-105"/>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className={`item rounded-md overflow-hidden cursor-pointer group  $ {slideIndex===2 ? 'opacity-1' : 'opacity-30'}`} onClick={()=> Goto(2)}>
+                            <div className="item  rounded-md overflow-hidden cursor-pointer group" onClick={()=> Goto(2)}>
                                 <img src="https://www.jiomart.com/images/product/original/rvkbvlzaox/ddg-women-printed-anarkali-kurta-product-images-rvkbvlzaox-2-202502051101.jpg?im=Resize=(600,750)"className="w-full transition-all group-hover:scale-105"/>
                             </div>
                         </SwiperSlide>
 
 
                         <SwiperSlide>
-                            <div className={`item rounded-md overflow-hidden cursor-pointer group  $ {slideIndex===3 ? 'opacity-1' : 'opacity-30'}`} onClick={()=> Goto(3)}>
+                            <div className="item  rounded-md overflow-hidden cursor-pointer group" onClick={()=> Goto(3)}>
                                 <img src="https://www.jiomart.com/images/product/original/rvkbvlzaox/ddg-women-printed-anarkali-kurta-product-images-rvkbvlzaox-3-202502051101.jpg?im=Resize=(600,750)"className="w-full transition-all group-hover:scale-105"/>
                             </div>
                         </SwiperSlide>
@@ -56,14 +56,14 @@ const ProductZoom=()=>{
 
 
                         <SwiperSlide>
-                            <div className={`item rounded-md overflow-hidden cursor-pointer group  $ {slideIndex===4 ? 'opacity-1' : 'opacity-30'}`} onClick={()=> Goto(0)}>
+                            <div className="item  rounded-md overflow-hidden cursor-pointer group" onClick={()=> Goto(4)}>
                                 <img src="https://www.jiomart.com/images/product/original/rvkbvlzaox/ddg-women-printed-anarkali-kurta-product-images-rvkbvlzaox-4-202502051102.jpg?im=Resize=(600,750)"className="w-full transition-all group-hover:scale-105"/>
                             </div>
                         </SwiperSlide>
 
 
                         <SwiperSlide>
-                            <div className={`item rounded-md overflow-hidden cursor-pointer group  $ {slideIndex===5 ? 'opacity-1' : 'opacity-30'}`} onClick={()=> Goto(0)}>
+                            <div className="item  rounded-md overflow-hidden cursor-pointer group" onClick={()=> Goto(5)}>
                                 <img src="https://www.jiomart.com/images/product/original/rvkbvlzaox/ddg-women-printed-anarkali-kurta-product-images-rvkbvlzaox-4-202502051102.jpg?im=Resize=(600,750)"className="w-full transition-all group-hover:scale-105"/>
                             </div>
                         </SwiperSlide>
