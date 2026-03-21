@@ -2,9 +2,10 @@ import Button from "@mui/material/Button";
 import Rating from '@mui/material/Rating';
 import { FaRegHeart } from "react-icons/fa";
 import { IoGitCompareOutline } from "react-icons/io5";
-import { MdOutlineShoppingCart, MdZoomOutMap } from "react-icons/md";
+import { MdZoomOutMap } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import "../ProductItem/style.css";
+import {MdOutlineShoppingCart} from "react-icons/md";
 
 
 const ProductItemListView = () => {

@@ -22,33 +22,33 @@ const ProductZoom=()=>{
                 <Swiper
                         ref={zoomSliderSml}
                         direction={'vertical'}
-                        spaceBetween={10}
-                        slidesPerView={4}
+                        spaceBetween={0}
+                        slidesPerView={5}
                         modules={[Navigation]}
                         className="zoomProductSliderThumbs h-[500px] overflow-hidden"
                         navigation={true}
                       >
                         <SwiperSlide>
-                            <div className="item rounded-md overflow-hidden cursor-pointer group opacity-30" onClick={()=> Goto(0)}>
+                            <div className="item rounded-md overflow-hidden cursor-pointer group opacity-30" onClick={()=> goto(0)}>
                                 <img src="https://www.jiomart.com/images/product/original/rvkbvlzaox/ddg-women-printed-anarkali-kurta-product-images-rvkbvlzaox-0-202502051101.jpg?im=Resize=(600,750)" className="w-full transition-all group-hover:scale-105"/>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className="item  rounded-md overflow-hidden cursor-pointer group" onClick={()=> Goto(1)}>
+                            <div className="item  rounded-md overflow-hidden cursor-pointer group" onClick={()=> goto(1)}>
                                 <img src="https://www.jiomart.com/images/product/original/rvkbvlzaox/ddg-women-printed-anarkali-kurta-product-images-rvkbvlzaox-1-202502051101.jpg?im=Resize=(600,750)" className="w-full transition-all group-hover:scale-105"/>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className="item  rounded-md overflow-hidden cursor-pointer group" onClick={()=> Goto(2)}>
+                            <div className="item  rounded-md overflow-hidden cursor-pointer group" onClick={()=> goto(2)}>
                                 <img src="https://www.jiomart.com/images/product/original/rvkbvlzaox/ddg-women-printed-anarkali-kurta-product-images-rvkbvlzaox-2-202502051101.jpg?im=Resize=(600,750)"className="w-full transition-all group-hover:scale-105"/>
                             </div>
                         </SwiperSlide>
 
 
                         <SwiperSlide>
-                            <div className="item  rounded-md overflow-hidden cursor-pointer group" onClick={()=> Goto(3)}>
+                            <div className="item  rounded-md overflow-hidden cursor-pointer group" onClick={()=> goto(3)}>
                                 <img src="https://www.jiomart.com/images/product/original/rvkbvlzaox/ddg-women-printed-anarkali-kurta-product-images-rvkbvlzaox-3-202502051101.jpg?im=Resize=(600,750)"className="w-full transition-all group-hover:scale-105"/>
                             </div>
                         </SwiperSlide>
@@ -56,14 +56,14 @@ const ProductZoom=()=>{
 
 
                         <SwiperSlide>
-                            <div className="item  rounded-md overflow-hidden cursor-pointer group" onClick={()=> Goto(4)}>
+                            <div className="item  rounded-md overflow-hidden cursor-pointer group" onClick={()=> goto(4)}>
                                 <img src="https://www.jiomart.com/images/product/original/rvkbvlzaox/ddg-women-printed-anarkali-kurta-product-images-rvkbvlzaox-4-202502051102.jpg?im=Resize=(600,750)"className="w-full transition-all group-hover:scale-105"/>
                             </div>
                         </SwiperSlide>
 
 
                         <SwiperSlide>
-                            <div className="item  rounded-md overflow-hidden cursor-pointer group" onClick={()=> Goto(5)}>
+                            <div className="item  rounded-md overflow-hidden cursor-pointer group" onClick={()=> goto(5)}>
                                 <img src="https://www.jiomart.com/images/product/original/rvkbvlzaox/ddg-women-printed-anarkali-kurta-product-images-rvkbvlzaox-4-202502051102.jpg?im=Resize=(600,750)"className="w-full transition-all group-hover:scale-105"/>
                             </div>
                         </SwiperSlide>
