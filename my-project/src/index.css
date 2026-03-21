@@ -11,7 +11,7 @@ body{
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   background: #f5f0f0;
-  color:rgba(0,0,0,0.9);
+  color:rgba(36,36,36,1);
   overflow-x: hidden;
 }
 
@@ -106,11 +106,10 @@ footer form input::placeholder{font-size:14px;}
 .shadow-md,.shadow-lg{box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24) !important;}
 
 
-.zoomProductSliderThumbs .swiper-slide{}
+.zoomProductSliderThumbs .swiper-wrapper{padding-top: 38px !important;}
 .zoomProductSliderThumbs .swiper-button-next{bottom:0px !important;right:inherit !important;top:inherit !important;width:100% !important;height:30px !important;border-radius: 0px !important;}
 
 .zoomProductSliderThumbs .swiper-button-next:after{transform:rotate(90deg);}
-/* .zoomProductSliderThumbs{position:relative;padding:0!important;margin:0!important}.zoomProductSliderThumbs .swiper-button-prev{position:absolute;top:0;left:0!important;right:0!important;width:100%!important;height:30px!important;margin:0!important;padding:0!important;border-radius:0!important;display:flex;align-items:center;justify-content:center}.zoomProductSliderThumbs .swiper-button-prev::after{font-size:16px} */
 .zoomProductSliderThumbs{position:relative;padding:0!important;margin:0!important}.zoomProductSliderThumbs .swiper-button-prev,.zoomProductSliderThumbs .swiper-button-next{position:absolute;left:0!important;right:0!important;width:100%!important;height:30px!important;margin:0!important;padding:0!important;border-radius:0!important;display:flex;align-items:center;justify-content:center}.zoomProductSliderThumbs .swiper-button-prev{top:0}.zoomProductSliderThumbs .swiper-button-next{bottom:0}.zoomProductSliderThumbs .swiper-button-prev::after,.zoomProductSliderThumbs .swiper-button-next::after{font-size:16px}
 .zoomProductSliderThumbs .swiper-button-prev:after{transform:rotate(90deg);}
 

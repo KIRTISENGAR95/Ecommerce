@@ -67,6 +67,8 @@ const ProductZoom=()=>{
                                 <img src="https://www.jiomart.com/images/product/original/rvkbvlzaox/ddg-women-printed-anarkali-kurta-product-images-rvkbvlzaox-4-202502051102.jpg?im=Resize=(600,750)"className="w-full transition-all group-hover:scale-105"/>
                             </div>
                         </SwiperSlide>
+
+                        <SwiperSlide></SwiperSlide>
                 </Swiper>
             </div>
             
